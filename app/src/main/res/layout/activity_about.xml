@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.ActivityAbout">
+
+    <ImageButton
+        android:id="@+id/ib_about_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E-Medic Hospital"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ib_about_back"
+
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/whiteEash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appname">
+
+        <TextView
+            android:id="@+id/txt_about_developedby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:text="Developed By"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/txt_about_developedby" />
+
+        <LinearLayout
+            android:id="@+id/linerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_about_developedby">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/developer_photo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dev1"
+                app:civ_border_color="@color/teal_200"
+                app:civ_border_width="2dp" />
+
+
+            <LinearLayout
+                android:id="@+id/linerlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="4dp"
+                android:paddingTop="5dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_about_developedby">
+
+                <TextView
+                    android:id="@+id/devolopername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Takveer Ahmed"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/devoloperid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="171-15-8633"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/linerlayout" />
+
+        <LinearLayout
+            android:id="@+id/linerlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/developer_photo2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dev2"
+                app:civ_border_color="@color/teal_200"
+                app:civ_border_width="2dp" />
+
+
+            <LinearLayout
+                android:id="@+id/linerlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="4dp"
+                android:paddingTop="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_about_developedby">
+
+                <TextView
+                    android:id="@+id/devolopername2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Joy Sutra Dhar"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/devoloid2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="171-15-8998"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/linerlayout3" />
+
+        <LinearLayout
+            android:id="@+id/linerlayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view2">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/developer_photo3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dev3"
+                app:civ_border_color="@color/teal_200"
+                app:civ_border_width="2dp" />
+
+
+            <LinearLayout
+                android:id="@+id/linerlayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:orientation="vertical"
+                android:paddingLeft="4dp"
+                android:paddingTop="5dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_about_developedby">
+
+                <TextView
+                    android:id="@+id/devolopername3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ankur Das Ananto"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/devoloperid3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="171-15-9068"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/linerlayout5" />
+
+        <TextView
+            android:id="@+id/txt_about_supervisorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:text="Supervisor"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view3" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/txt_about_supervisorname" />
+
+        <LinearLayout
+            android:id="@+id/linerlayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view4">
+
+            <TextView
+                android:id="@+id/supervisorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moushumi Zaman Bonny"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/supervisordes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senior Lecturer"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/supervisordept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department of Computer Science and Engineering"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/linerlayout7" />
+
+        <TextView
+            android:id="@+id/txt_about_supervisorname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:text="Co-Supervisor"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view5" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/ash"
+            app:layout_constraintTop_toBottomOf="@id/txt_about_supervisorname2" />
+
+        <LinearLayout
+            android:id="@+id/linerlayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view6">
+
+            <TextView
+                android:id="@+id/supervisorname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mr. Narayan Ranjan Chakraborty"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/supervisordes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assistant Professor "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/supervisordept1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department of Computer Science and Engineering"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

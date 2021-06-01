@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_doctorList"
+        android:title="Doctor List" />
+        <item
+            android:id="@+id/nav_addambulance"
+            android:title="Add Ambulance"/>
+
+    <item android:title="Log Out">
+        <menu>
+            <item
+                android:id="@+id/nav_hospital_logOut"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_hospital_aboutUs"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_hospital_rateApp"
+                android:title="Rate App" />
+        </menu>
+    </item>
+
+
+</menu>

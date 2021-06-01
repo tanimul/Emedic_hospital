@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "556599605605",
+    "firebase_url": "https://emedic-48bde-default-rtdb.firebaseio.com",
+    "project_id": "emedic-48bde",
+    "storage_bucket": "emedic-48bde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556599605605:android:8f2b3d02b71ee91a03898c",
+        "android_client_info": {
+          "package_name": "com.example.e_madic2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556599605605-nk240jdc9d87au04qa7pujn8kfnrv15i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUMw6ntAPIweT0SxZCvg_kXN38SFPrQos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556599605605-nk240jdc9d87au04qa7pujn8kfnrv15i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556599605605:android:304e22b9e9802b5703898c",
+        "android_client_info": {
+          "package_name": "com.example.emadic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556599605605-nk240jdc9d87au04qa7pujn8kfnrv15i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUMw6ntAPIweT0SxZCvg_kXN38SFPrQos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556599605605-nk240jdc9d87au04qa7pujn8kfnrv15i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

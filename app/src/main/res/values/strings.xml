@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E-Madic Hospital</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="hospital_type">
+        <item>Select one</item>
+        <item>General Hospital</item>
+        <item>Hospital</item>
+        <item>Private Hospital</item>
+    </string-array>
+
+    <string-array name="ambulance_area">
+        <item>Select one</item>
+        <item>dhaka</item>
+        <item>bogura</item>
+        <item>dinajpur</item>
+        <item>rajsahi</item>
+        <item>narayangonj</item>
+        <item>chittagong</item>
+        <item>sylhet</item>
+        <item>cumilla</item>
+        <item>noakhali</item>
+    </string-array>
+
+    <string name="openNavDrawer">Navigration Drawer Open</string>
+    <string name="closeNavDrawer">Navigration Drawer Close</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.badoualy:datepicker-timeline:c6dcd05737@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e193911e3347a7f2f83ec8ab7104415a/jetified-datepicker-timeline-c6dcd05737/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e193911e3347a7f2f83ec8ab7104415a/jetified-datepicker-timeline-c6dcd05737/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e193911e3347a7f2f83ec8ab7104415a/jetified-datepicker-timeline-c6dcd05737/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.badoualy/datepicker-timeline/c6dcd05737/186d4b0840a85d443db788f43d7eb810a1808a3e/datepicker-timeline-c6dcd05737-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.badoualy/datepicker-timeline/c6dcd05737/845e8ee273575f56488aee77a8b2d973e10a4310/datepicker-timeline-c6dcd05737-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

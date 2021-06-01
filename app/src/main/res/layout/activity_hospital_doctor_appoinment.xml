@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ui.ActivityHospitalDoctorAppoinment">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:liftOnScroll="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp">
+
+
+                <ImageButton
+                    android:id="@+id/backs"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/hospital_doctor_appointment_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Doctor Appointment"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@id/backs"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constrant_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize">
+
+            <com.github.badoualy.datepicker.DatePickerTimeline
+                android:id="@+id/appoinmentDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mti_bgLblTodayColor="@color/red"
+                app:mti_primaryDarkColor="@color/lite_black"
+                app:mti_tabBeforeSelectionColor="@color/lite_black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnShowAppoinment"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:text="Show Appoinment"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appoinmentDatePicker" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recy_hospital_doctor_Appointment"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnShowAppoinment"
+                tools:listitem="@layout/layout_doctor_appointment"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
